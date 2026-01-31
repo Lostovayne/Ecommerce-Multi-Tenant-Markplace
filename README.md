@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="https://img.shields.io/badge/Multi--Tenant%20Ecommerce-Next.js-blueviolet?style=for-the-badge&logo=next.js" alt="Multi-Tenant Ecommerce" />
+  <h1 style="font-family: 'DM Sans', sans-serif; font-weight: 800; letter-spacing: -2px; color: #4f46e5;">Multi-Tenant Ecommerce</h1>
+  <p style="font-size: 1.2rem; color: #64748b;">Una plataforma moderna, escalable y personalizable para comercio electrónico multi-tenant, construida con tecnologías de vanguardia.</p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 🚀 Características principales
+
+- Arquitectura multi-tenant real
+- UI moderna y responsiva
+- Componentes reutilizables y estilizados
+- Integración lista para despliegue en Vercel
+- Código limpio, modular y fácil de mantener
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Next.js** (App Router)
+- **React**
+- **TypeScript**
+- **Radix UI**
+- **Tailwind CSS**
+- **Vercel** (deploy)
+
+---
+
+## 📦 Instalación rápida
 
 ```bash
+# Clona el repositorio
+ git clone https://github.com/tuusuario/multi-tenan-ecommerce.git
+
+# Entra al directorio
+cd multi-tenan-ecommerce
+
+# Instala dependencias
+npm install
+
+# Inicia el servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 Estructura del proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+multi-tenan-ecommerce/
+├── src/
+│   ├── app/           # Páginas y layouts principales
+│   ├── components/    # Componentes UI reutilizables
+│   └── lib/           # Utilidades y helpers
+├── public/            # Recursos estáticos
+├── .gitignore
+├── README.md
+└── package.json
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 💡 Uso y personalización
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Edita `src/app/page.tsx` para comenzar a personalizar tu landing.
+- Agrega o modifica componentes en `src/components/ui/` para adaptar la UI a tu marca.
+- Configura variables de entorno en `.env` según tus necesidades.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎨 Estilo y diseño
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> _"El diseño es simple, elegante y funcional. Inspirado en la claridad y la experiencia de usuario moderna, con un toque personal único."_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Paleta de colores: **azul violeta**, **gris suave**, **blanco puro**
+- Tipografía: **DM Sans** para títulos, **Geist Mono** para detalles técnicos
+- Componentes con bordes redondeados y transiciones suaves
+
+---
+
+## 🌐 Despliegue
+
+Despliega instantáneamente en [Vercel](https://vercel.com/) haciendo clic aquí:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app)
+
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Abre un issue o pull request para sugerir mejoras, reportar bugs o proponer nuevas funcionalidades.
+
+---
+
+## 📬 Contacto
+
+- Autor: **DeusloVult**
+- Email: [Email](mailto:nextjs.rc@gmail.com)
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/franco-barrera-riffo/)
+
+---
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Hecho%20con-%E2%9D%A4%EF%B8%8F%20por%20epsav-blueviolet?style=flat-square" alt="Hecho con amor por epsav" />
+  <br/>
+  <sub style="color: #64748b;">© 2024 Multi-Tenant Ecommerce. Todos los derechos reservados.</sub>
+</div>
